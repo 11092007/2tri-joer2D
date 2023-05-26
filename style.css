@@ -1,17 +1,34 @@
 :root {
-        --cor-de-fundo:#ff00ff;
-
+        --cor-de-fundo:#ff0000;
+        --cor-de-cabecalho: #95d6ff;
+        --fundo-menu: #ff9595;
 }
 
 body {
-        background-color: var(--cor-de-fundo)
+        background-color: var(--cor-de-fundo);
+        text-align: center;
+}
+.cabecalho{
+        background-color: var(--cor-de-cabecalho);
 }
 
-h1 {
-     background-color: rgb(120, 0, 145);
-
+.cabecalho-titulo {
+        font-size: 36px;
+        font-weight: 700;
+        padding: 12px;
+        text-align: center;
+}
+.cabecalho-menu-item{
+        display: block;
+        padding: 10px;
+        font-size: 24px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-top: 1px solid;
 }
 
-body{
-    font-size: xx-large;
+.vasco-da-gama{
+        width: 250px;
+
 }
